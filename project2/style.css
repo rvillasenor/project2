@@ -1,0 +1,94 @@
+.website {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color: #a3c3f7;
+}
+.grid2col {
+	display: grid; 
+	grid-template-columns: 1fr 1fr;
+}
+.pagenames {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #bcc2c4;
+	grid-column: span 1;
+	font-size: 50px;
+	text-align: center;
+	position: sticky;
+	top:0;
+	color: #892949;
+	z-index: 1;
+}
+.link {
+	color: #892949;
+}
+a:hover {
+	color: black;
+}
+.title {
+	font-family: 'Montserrat', sans-serif;
+	grid-column: span 5;
+	font-size: 75px;
+	text-align: center;
+	padding: 1em;
+	background: linear-gradient(to bottom,white 0%,rgba(255,255,255,0) 75%);
+}
+.great2 {
+	background: linear-gradient(to bottom,white 0%,rgba(255,255,255,0) 75%);
+	background-image: url(images/colorado-rainbows.jpg);
+	padding-bottom: 13em;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.image {
+	grid-column: span 2;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: center;
+}
+.img2 {
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	position: center;
+}
+.img3 {
+	grid-column: span 1;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.border {
+	border: 20px solid #892949;
+}
+.description {
+	background-color: white;
+	font-size: 50px;
+	grid-column: span 5;
+	text-align: center;
+	color: #174c75;
+	padding: 1em;
+}
+.description2 {
+	grid-column: span 1;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.description3 {
+	font-size: 75px;
+	grid-column: span 5;
+	text-align: center;
+	color: #174c75;
+	padding: 1em;
+	background-color: white;
+}
+.list {
+	grid-column-start: 2;
+	grid-column-end: span 3;
+}
+
+.colspan1 {
+	grid-column: span 1;
+
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+}

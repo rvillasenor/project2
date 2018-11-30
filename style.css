@@ -2,6 +2,7 @@
 	display: grid; 
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	background-color: #a3c3f7;
+	cursor: url("favicon-32x32.png"), auto;
 }
 .grid2col {
 	display: grid; 
@@ -22,7 +23,7 @@
 	color: #892949;
 }
 a:hover {
-	color: black;
+	color: #000099;
 }
 .title {
 	font-family: 'Montserrat', sans-serif;
@@ -55,6 +56,10 @@ a:hover {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+.img4 {
+	grid-column: span 5;
+	text-align: center;
+}
 .border {
 	border: 20px solid #892949;
 }
@@ -86,7 +91,12 @@ a:hover {
 
 .colspan1 {
 	grid-column: span 1;
-
+	height: 100%;
+	display: grid;
+	align-items: center;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 * {
 	margin: 0;
